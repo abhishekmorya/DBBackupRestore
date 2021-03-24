@@ -1,0 +1,182 @@
+{
+    "data": {
+        "film_category": {
+            "1": "film_id",
+            "2": "category_id",
+            "3": "last_update"
+        },
+        "country": {
+            "1": "country_id",
+            "2": "country",
+            "3": "last_update"
+        },
+        "actor_info": {
+            "1": "actor_id",
+            "2": "first_name",
+            "3": "last_name",
+            "4": "film_info"
+        },
+        "address": {
+            "1": "address_id",
+            "2": "address",
+            "3": "address2",
+            "4": "district",
+            "5": "city_id",
+            "6": "postal_code",
+            "7": "phone",
+            "8": "location",
+            "9": "last_update"
+        },
+        "city": {
+            "1": "city_id",
+            "2": "city",
+            "3": "country_id",
+            "4": "last_update"
+        },
+        "film_actor": {
+            "1": "actor_id",
+            "2": "film_id",
+            "3": "last_update"
+        },
+        "customer_list": {
+            "1": "ID",
+            "2": "name",
+            "3": "address",
+            "4": "zip code",
+            "5": "phone",
+            "6": "city",
+            "7": "country",
+            "8": "notes",
+            "9": "SID"
+        },
+        "sales_by_film_category": {
+            "1": "category",
+            "2": "total_sales"
+        },
+        "language": {
+            "1": "language_id",
+            "2": "name",
+            "3": "last_update"
+        },
+        "staff": {
+            "11": "last_update",
+            "1": "staff_id",
+            "2": "first_name",
+            "3": "last_name",
+            "4": "address_id",
+            "5": "picture",
+            "6": "email",
+            "7": "store_id",
+            "8": "active",
+            "9": "username",
+            "10": "password"
+        },
+        "film": {
+            "11": "rating",
+            "12": "special_features",
+            "13": "last_update",
+            "1": "film_id",
+            "2": "title",
+            "3": "description",
+            "4": "release_year",
+            "5": "language_id",
+            "6": "original_language_id",
+            "7": "rental_duration",
+            "8": "rental_rate",
+            "9": "length",
+            "10": "replacement_cost"
+        },
+        "store": {
+            "1": "store_id",
+            "2": "manager_staff_id",
+            "3": "address_id",
+            "4": "last_update"
+        },
+        "inventory": {
+            "1": "inventory_id",
+            "2": "film_id",
+            "3": "store_id",
+            "4": "last_update"
+        },
+        "sales_by_store": {
+            "1": "store",
+            "2": "manager",
+            "3": "total_sales"
+        },
+        "rental": {
+            "1": "rental_id",
+            "2": "rental_date",
+            "3": "inventory_id",
+            "4": "customer_id",
+            "5": "return_date",
+            "6": "staff_id",
+            "7": "last_update"
+        },
+        "actor": {
+            "1": "actor_id",
+            "2": "first_name",
+            "3": "last_name",
+            "4": "last_update"
+        },
+        "staff_list": {
+            "1": "ID",
+            "2": "name",
+            "3": "address",
+            "4": "zip code",
+            "5": "phone",
+            "6": "city",
+            "7": "country",
+            "8": "SID"
+        },
+        "film_list": {
+            "1": "FID",
+            "2": "title",
+            "3": "description",
+            "4": "category",
+            "5": "price",
+            "6": "length",
+            "7": "rating",
+            "8": "actors"
+        },
+        "film_text": {
+            "1": "film_id",
+            "2": "title",
+            "3": "description"
+        },
+        "payment": {
+            "1": "payment_id",
+            "2": "customer_id",
+            "3": "staff_id",
+            "4": "rental_id",
+            "5": "amount",
+            "6": "payment_date",
+            "7": "last_update"
+        },
+        "nicer_but_slower_film_list": {
+            "1": "FID",
+            "2": "title",
+            "3": "description",
+            "4": "category",
+            "5": "price",
+            "6": "length",
+            "7": "rating",
+            "8": "actors"
+        },
+        "category": {
+            "1": "category_id",
+            "2": "name",
+            "3": "last_update"
+        },
+        "customer": {
+            "1": "customer_id",
+            "2": "store_id",
+            "3": "first_name",
+            "4": "last_name",
+            "5": "email",
+            "6": "address_id",
+            "7": "active",
+            "8": "create_date",
+            "9": "last_update"
+        }
+    }
+}
